@@ -23,4 +23,7 @@ add_executable(C_NeuralNetwork_Framework
         Modules/Layer_Builder/build_Linear.c
         Modules/Layer_Builder/initialization.c
         Modules/Layer_Builder/print_info.c
-        run/test.c)
+        run/test.c
+        Modules/Layer_Builder/build_activation.c
+        Modules/Matrix_calculation/matrix_concatenation.c
+        Modules/Matrix_calculation/test_concat.c)

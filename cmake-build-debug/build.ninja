@@ -145,6 +145,24 @@ build CMakeFiles/C_NeuralNetwork_Framework.dir/run/test.c.obj: C_COMPILER__C_Neu
   OBJECT_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir
   OBJECT_FILE_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir\run
 
+build CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/build_activation.c.obj: C_COMPILER__C_NeuralNetwork_Framework_unscanned_Debug E$:/C_project/C_NeuralNetwork_Framework/Modules/Layer_Builder/build_activation.c || cmake_object_order_depends_target_C_NeuralNetwork_Framework
+  DEP_FILE = CMakeFiles\C_NeuralNetwork_Framework.dir\Modules\Layer_Builder\build_activation.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir\Modules\Layer_Builder
+
+build CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_concatenation.c.obj: C_COMPILER__C_NeuralNetwork_Framework_unscanned_Debug E$:/C_project/C_NeuralNetwork_Framework/Modules/Matrix_calculation/matrix_concatenation.c || cmake_object_order_depends_target_C_NeuralNetwork_Framework
+  DEP_FILE = CMakeFiles\C_NeuralNetwork_Framework.dir\Modules\Matrix_calculation\matrix_concatenation.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir\Modules\Matrix_calculation
+
+build CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/test_concat.c.obj: C_COMPILER__C_NeuralNetwork_Framework_unscanned_Debug E$:/C_project/C_NeuralNetwork_Framework/Modules/Matrix_calculation/test_concat.c || cmake_object_order_depends_target_C_NeuralNetwork_Framework
+  DEP_FILE = CMakeFiles\C_NeuralNetwork_Framework.dir\Modules\Matrix_calculation\test_concat.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir\Modules\Matrix_calculation
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_NeuralNetwork_Framework
@@ -153,7 +171,7 @@ build CMakeFiles/C_NeuralNetwork_Framework.dir/run/test.c.obj: C_COMPILER__C_Neu
 #############################################
 # Link the executable C_NeuralNetwork_Framework.exe
 
-build C_NeuralNetwork_Framework.exe: C_EXECUTABLE_LINKER__C_NeuralNetwork_Framework_Debug CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/derivation/derivative.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/derivation/Jacobian.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_linear.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_multiply.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/test_transpose.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/test_matmul.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_transpose.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_base.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Sequential/build_model.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Optimizer/optimizer_BasicGD.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Optimizer/optimizer_Adam.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Sequential/forward.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/build_Linear.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/initialization.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/print_info.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/run/test.c.obj
+build C_NeuralNetwork_Framework.exe: C_EXECUTABLE_LINKER__C_NeuralNetwork_Framework_Debug CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/derivation/derivative.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/derivation/Jacobian.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_linear.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_multiply.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/test_transpose.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/test_matmul.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_transpose.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_base.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Sequential/build_model.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Optimizer/optimizer_BasicGD.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Optimizer/optimizer_Adam.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Sequential/forward.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/build_Linear.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/initialization.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/print_info.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/run/test.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Layer_Builder/build_activation.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/matrix_concatenation.c.obj CMakeFiles/C_NeuralNetwork_Framework.dir/Modules/Matrix_calculation/test_concat.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_NeuralNetwork_Framework.dir

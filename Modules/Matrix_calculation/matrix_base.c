@@ -15,6 +15,23 @@ Matrix create_matrix(int rows, int cols) {
     return m;
 }
 
+Matrix create_ones_matrix(int rows, int cols) {
+    Matrix m;
+    m.rows = rows;
+    m.cols = cols;
+    m.data = (double *)malloc(rows * cols * sizeof(double));
+    if (m.data == NULL) {
+        fprintf(stderr, "Error: Fail to alloc memory.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    for (int i = 0; i < rows * cols; i++) {
+        m.data[i] = 1.0;
+    }
+
+    return m;
+}
+
 void free_matrix(Matrix m) {
     free(m.data);
 }

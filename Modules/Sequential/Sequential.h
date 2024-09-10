@@ -17,5 +17,7 @@ Model model_create(char *model_name);
 void add_layer(Model *model, Layer layer);
 void print_model_info(Model model);
 
+Matrix forward(Model model, Matrix input);
+Matrix linear_forward(Matrix x, Matrix w);
 
 #endif //C_COMPUTATIONAL_GRAPH_SEQUENTIAL_H

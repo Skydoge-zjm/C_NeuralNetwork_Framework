@@ -33,6 +33,9 @@ void print_layer_weights(Layer layer);
 
 Layer init_linear_layer(int input_dim, int output_dim, InitializationType init_type);
 
+Layer init_ReLU_layer(int input_dim);
+Layer init_Sigmoid_layer(int input_dim);
+
 void ones_init(Matrix m);
 void zeros_init(Matrix m);
 void random_init(Matrix m);
